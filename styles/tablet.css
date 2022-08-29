@@ -1,0 +1,96 @@
+/* TABLET */
+
+.home__container, .columns__container, .features__container,
+ .pricing__container, .contact__container {
+    display: flex;
+}
+
+.container {
+    padding: 50px;
+}
+
+
+ /* home tablet */
+.home__text {
+    line-height: 1.5rem;
+}
+.home__text > h1 {
+    font-size: 1.5rem;
+}
+
+/* columns tablet*/
+
+.columns {
+    margin: 40px;
+}
+
+.columns__header {
+    padding-right: 150px;
+    padding-left: 150px;
+    line-height: 2rem;
+}
+
+.columns__container {
+    padding: 40px;
+    justify-content: center;
+}
+.column__icon {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.columns__item > p {
+    font-size: 1.2rem;
+    padding: 0;
+}
+
+/* features tablet*/
+.features__container {
+    align-items: center;  
+}
+
+.features__text {
+    width: 50%;
+}
+
+.features__image {
+    width: 50%;
+}
+
+/* Pricing tablet*/
+
+.pricing__header {
+    padding: 50px 100px 0 100px;
+}
+
+.pricing__col-small {
+    height: 350px;
+}
+.pricing__col-big {
+    margin-top: 10px;
+ }
+
+ .pricing__button {
+    margin: 5px 0 20px 0;
+ }
+
+
+/* download tablet */
+.download__container {
+    min-height: 350px;
+}
+.download__images {
+    margin-top: 20px;
+}
+.download__text > h2  {
+    text-align: left;
+    font-size: 2rem;
+}
+
+/* contact tablet */
+.contact__container {
+    flex-wrap: wrap;
+}
+
+.contact__item {
+    width: 50%;
+}
