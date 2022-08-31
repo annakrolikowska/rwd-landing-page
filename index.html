@@ -16,7 +16,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
    
-    <title>Document</title>
+    <title>Responsive Website</title>
 </head>
 <body>
 
@@ -25,7 +25,7 @@
             <div class="header__logo">
                 <img src="./images/logo.png" alt="logo">
             </div>
-            <label for="menu-switcher"> <i class="header__icon fas fa-bars"></i></label>
+            <label class="header__label" for="menu-switcher"> <i class="header__icon fas fa-bars"></i></label>
             <input type="checkbox" id="menu-switcher">
             <nav class="header__nav">
                 <ul class="nav__links">
@@ -60,25 +60,25 @@
             <header class="columns__header">
                 <h2>Save your time to using applab</h2>
             </header>
-            <div class="columns__container">
-                <div class="columns__item column">
+            <ul class="columns__container">
+                <li class="columns__item column">
                     <img class="column__icon icon-blue" src="images/icons/1.svg" alt="">
                     <p>Lorem ipsum dolor sit amet.</p>
-                </div>
-                <div class="columns__item column">
+                </li>
+                <li class="columns__item column">
                     <img class="column__icon icon-orange" src="images/icons/2.svg" alt="">
                     <p>Lorem ipsum dolor sit amet.</p>
-                </div>
-                <div class="columns__item column">
+                </li>
+                <li class="columns__item column">
                     <img class="column__icon icon-green" src="images/icons/3.svg" alt="">
                     <p>Lorem ipsum dolor sit amet.</p>
-                </div>
-            </div>
+                </li>
+            </ul>
         </div>
     </section>
 
     <section class="features" id="features">
-        <div class="features__container container">
+        <article class="features__container container">
             <div class="features__text">
                 <h2>Features that give you real feel</h2>
                 <p class="features__description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis sunt beatae perspiciatis eius saepe quam. Distinctio, magnam. Esse obcaecati exercitationem cum ratione delectus non, itaque, ab omnis, aut architecto vel!</p>
@@ -87,11 +87,11 @@
             <div class="features__image">
                 <img class="feature__img" src="./images/draw.png" alt="phone draw">
             </div>
-        </div>
+        </article>
     </section>
 
     <section class="review" id="review">
-        <div class="review__container container">
+        <article class="review__container container">
             <div class="review__text">
                 <h2> Review from our regular users</h2>
                 <p class="review__description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -106,7 +106,7 @@
               <i class="fas fa-star"></i>
               <p class="review-author">- ROBERT SMILE</p>
             </div>
-        </div>
+        </article>
     </section>
 
     <section class="pricing" id="pricing" >
@@ -114,8 +114,8 @@
             <h2>Unlock full Power</h2>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum consequuntur voluptas facere quae?</p>
         </header>
-        <div class="pricing__container container">
-            <div class="pricing__col pricing__col-small">
+        <ul class="pricing__container container">
+            <li class="pricing__col pricing__col--small">
                 <header class="col__header header--blue">
                     <h3>Basic</h3>
                     <p>$06</p>
@@ -127,8 +127,8 @@
                     <li>1000GB Cloud Storage</li>
                 </ul>
                 <button class="pricing__button button">Get Now</button>
-            </div>
-            <div class="pricing__col pricing__col-big">
+            </li>
+            <li class="pricing__col pricing__col--big">
                 <header class="col__header header--orange">
                     <h3>Team</h3>
                     <p>$06</p>
@@ -141,8 +141,8 @@
                     <li>Unlimited Users Limit</li>
                 </ul>
                 <button class="pricing__button button">Get Now</button>
-            </div>
-            <div class="pricing__col pricing__col-small">
+            </li>
+            <li class="pricing__col pricing__col--small">
                 <header class="col__header header--green">
                     <h3>Business</h3>
                     <p>$06</p>
@@ -154,8 +154,8 @@
                     <li>1000GB Cloud Storage</li>
                 </ul>
                 <button class="pricing__button button">Get Now</button>
-            </div>
-        </div>
+            </li>
+        </ul>
     </section>
 
     <section class="download" id="download">

@@ -17,7 +17,7 @@
 
 }
 
-label {
+.header__label {
     display: none;
 }
 
@@ -75,10 +75,6 @@ header input:checked + nav {
     font-size: 2.5rem;
     line-height: 3rem;
 }
-
-/* .home__description {
-    font-size: 1rem;
-} */
 
 /* Columns desktop */
 
@@ -150,7 +146,6 @@ header input:checked + nav {
  .download__text > h2{ 
     font-size: 2.1rem;
  }
-
 
  .download__images {
     display: flex;

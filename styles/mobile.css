@@ -92,7 +92,7 @@ header input:checked ~ nav {
     position: relative;
 }
 
- label {
+.header__label {
     position: absolute;
     right: 10px;
     top: 10px;

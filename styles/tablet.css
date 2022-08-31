@@ -9,7 +9,6 @@
     padding: 50px;
 }
 
-
  /* home tablet */
 .home__text {
     line-height: 1.5rem;
@@ -62,10 +61,10 @@
     padding: 50px 100px 0 100px;
 }
 
-.pricing__col-small {
+.pricing__col--small {
     height: 350px;
 }
-.pricing__col-big {
+.pricing__col--big {
     margin-top: 10px;
  }
 
