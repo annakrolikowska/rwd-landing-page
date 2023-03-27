@@ -3,7 +3,6 @@
 <img src='./images/readme/rwd-readme.png' width='90%' height='90%'> 
 
 *Graphic template is from [Colorlib](https://colorlib.com/wp/)*
-
 &nbsp;
 
  ## :bulb: The goal of my work was:
@@ -11,6 +10,8 @@
 - make it looks good on every screen - **mobiles, tablets and desktops** 
 - use pure **HTML** and **CSS**
 - use **BEM** methodology
+
+[**--> Check out the project <--**](https://annakrolikowska.github.io/rwd-landing-page/)
 
 &nbsp;
 
